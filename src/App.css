@@ -1,42 +1,85 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.app {
+  display: flex;
+}
+
+/* Sidebar css */
+.sidebar {
+  background-color: rgb(41, 41, 45);
+  width: 20%;
+  height: 95vh;
+  border-radius: 10px;
+  margin-right: 50px;
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  margin: 2rem;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.side-section {
+  padding: 1.2rem 0.8rem;
+  margin-left: 1.5rem;
+  display: flex;
+  gap: 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: gray;
+  /* background-color: red; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.side-icon {
+  width: 30px;
+  height: 30px;
 }
 
-.card {
-  padding: 2em;
+.arrow-icon1,
+.arrow-icon2,
+.arrow-icon4,
+.arrow-icon3 {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  right: 0px;
+  position: relative;
 }
 
-.read-the-docs {
-  color: #888;
+.arrow-icon2 {
+  margin-left: 87px;
+}
+.arrow-icon3 {
+  margin-left: 8px;
+}
+.arrow-icon4 {
+  color: #fff;
+}
+
+.selected {
+  margin-left: 1.5rem;
+  border-top: 2px solid rgb(24, 24, 162);
+  border-left: 2px solid rgb(24, 24, 162);
+  border-bottom: 2px solid rgb(24, 24, 162);
+  border-radius: 5px;
+  background-color: rgba(24, 24, 24, 0.837);
+}
+.white {
+  color: white;
+}
+
+.side-section4 {
+  display: flex;
+  gap: 20px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.selected p {
+  margin-top: 2px;
+}
+
+.playlist {
+  background-color: #303030;
+  padding: 10px;
+  margin-left: 2rem;
+  margin-top: -10px;
+  border-radius: 5px;
+  width: 60%;
 }
