@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Sidebar from './components/Sidebar';
 import Navbar from './components/Navbar';
+import Products from './components/Products';
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       </div>
       <div>
         <Navbar />
-        <div>product playlist</div>
+        <Products />
       </div>
     </div>
   );
