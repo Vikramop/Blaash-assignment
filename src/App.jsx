@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Sidebar from './components/Sidebar';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
         <Sidebar />
       </div>
       <div>
-        <h1>Navbar</h1>
+        <Navbar />
         <div>product playlist</div>
       </div>
     </div>

@@ -30,7 +30,10 @@
   width: 30px;
   height: 30px;
 }
-
+.flex {
+  display: flex;
+  gap: 4px;
+}
 .arrow-icon1,
 .arrow-icon2,
 .arrow-icon4,
@@ -57,7 +60,7 @@
   border-top: 2px solid rgb(24, 24, 162);
   border-left: 2px solid rgb(24, 24, 162);
   border-bottom: 2px solid rgb(24, 24, 162);
-  border-radius: 5px;
+  border-radius: 15px 0 0 15px;
   background-color: rgba(24, 24, 24, 0.837);
 }
 .white {
@@ -76,10 +79,92 @@
 }
 
 .playlist {
-  background-color: #303030;
+  background-color: #5c5c5c;
   padding: 10px;
-  margin-left: 2rem;
+  margin-left: 1rem;
   margin-top: -10px;
   border-radius: 5px;
-  width: 60%;
+  width: 70%;
+}
+
+.absolute {
+  position: absolute;
+  right: 10px;
+  top: 2px;
+}
+.relative {
+  position: relative;
+}
+.blue {
+  color: blue;
+}
+/* Navbar Css */
+
+.navbar {
+  /* color: red; */
+  width: 70vw;
+  background-color: rgb(41, 41, 45);
+  display: flex;
+  gap: 200px;
+  border-radius: 10px;
+}
+
+.navbar-heading {
+  /* font-size: 10px; */
+  font-weight: 600;
+  padding-left: 10px;
+  font-size: 20px;
+}
+.navbar-side {
+  display: flex;
+  gap: 10px;
+}
+
+.input-box {
+  height: 32px;
+  border-radius: 10px;
+  border: 1px solid blue;
+}
+.n-box {
+  border: 1px solid blue;
+  padding: 4px 10px;
+  padding-left: 35px;
+  border-radius: 10px;
+}
+.input-box::placeholder {
+  padding-left: 5px;
+}
+
+.input-sec {
+  margin-top: 17px;
+}
+
+.side-iconN {
+  width: 25px;
+  height: 25px;
+  top: 15px;
+  position: relative;
+}
+.search-icon {
+  width: 20px;
+  height: 20px;
+  top: 5px;
+}
+.borderN {
+  border: 1px solid blue;
+  border-radius: 5px;
+  padding: 0 5px;
+}
+
+.absolute-i {
+  left: 35px;
+  top: 20px;
+}
+
+.top-20 {
+  top: 20px;
+}
+.top-5 {
+  top: 5px;
+  position: relative;
 }
